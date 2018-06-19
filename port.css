@@ -1,0 +1,148 @@
+body{
+	background-image: url(background.jpg);
+	height: 390vh;
+	width: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: "CaviarDreams", sans-serif;
+}
+nav ul{
+	padding: 10px;
+	margin: 0;
+	background-color: #4A4944;
+	list-style-type: none;
+	text-align: center;
+	font-size:40px;
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+header{
+	    position: fixed;
+	    z-index:3;
+	    width: 100%;
+	    margin-top: -1.5%;
+
+}
+nav li{
+	padding:0; 
+	display: inline-block;
+}
+nav a{
+	display: block;
+	transition: 1s background-color;
+	text-decoration: none;
+	padding:2px 20px 2px 20px;
+	color:#9BBFAB;
+}
+.home{
+	color: #F2EFDF;
+}
+nav a:hover{
+	color:#F2EFDF;
+
+}
+nav a:focus{
+	color: #F2EFDF;
+	border-bottom: 1px solid #F2EFDF;
+	line-height: 40px;
+}
+/* div do perfil*/
+#img1{
+	width:50vh; 
+	height:50vh;
+	margin: 0;
+	position: relative;
+	top: 12vw;
+	left: 5vh;
+}
+/*DIV DO TEXTO*/
+#texto1{
+	height: 45vh;
+	width: 40vw;
+	position: relative;
+	left: 57vw;
+	bottom: 30vh;
+}
+#textinho{
+	font-size: 4vh;
+	font-weight: normal;
+	color: #656F8C;
+	position: relative;
+	left: 2vw;
+	bottom: 5vh;
+}
+#titulo{
+	width: 25vw;
+	color: #008F64;
+	font-size: 6vh;
+	font-weight: bold;
+	position: relative;
+	left: 0vw;
+	bottom: 2vh;
+}
+/* IMAGENS REDONDAS*/
+.image{
+	width:100%; 
+	height:100%;
+	border-radius: 50%;
+	margin: 5% 10% 5%;
+}
+/* div do dpa*/
+#dpa{
+	width:50vh; 
+	height:50vh;
+	margin: 0;
+	position: relative;
+	top: 20vw;
+	left: 5.5vh;
+}
+/* div do mercurio*/
+#merc{
+	width:50vh; 
+	height:50vh;
+	margin: 0;
+	position: relative;
+	left: 66vw;
+	bottom: 8vh;
+}
+/*BOTOES*/
+.botao{
+	height: 15%;
+	width: 50%;
+	position: relative;
+	left: 18vh;
+	top: 1vw;
+}
+/*DIV CONTATO*/
+#msgtudo{
+margin:0;
+height:50vh;
+width: 60vw; 
+position: relative;
+top: 55vh;
+left: 15vw;
+}
+.caixa{
+	background-color: #F2EFDF;
+	border-color: #9BBFAB;
+	font-size: 3vh;
+	color:#656F8C;
+	height: 4vh;
+	width: 40vw;
+	margin-bottom: 2vh;
+}
+#caixa3{
+	background-color: #F2EFDF;
+	border-color: #9BBFAB;
+	font-size: 3.5vh;
+	width: 39.8vw;
+}
+#envia{
+	margin:0;
+	height: 5vh;
+	width: 3vw;
+}
